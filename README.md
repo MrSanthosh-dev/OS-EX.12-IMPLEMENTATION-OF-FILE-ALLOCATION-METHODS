@@ -67,7 +67,6 @@ x:
 Thus, file management using sequential list is implemented successfully.
 
 ## 2.FILE MANAGEMENT USING INDEXED ALLOCATION
-
 ## Aim:
 To implement file management using Indexed list.
 
@@ -151,7 +150,6 @@ Thus, file management using Indexed list is implemented successfully.
 
 ## Aim:
 To implement file management using Linked list.
-
 ## Description:
 Linked allocation solves all problems of contiguous allocation. With linked allocation, each file is a linked list of disk blocks; the disk blocks may be scattered anywhere on the disk. The directory contains a pointer to the first and last blocks of the file.
 Each block contains a pointer to the next block. These pointers are not made available to the user. Thus, if each block is 512 bytes, and a disk address (the pointer) requires 4 bytes, then the user sees blocks of 508bytes.
